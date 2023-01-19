@@ -22,7 +22,7 @@ const App = () => {
           <div className="routes">
             <Routes>
               <Route path="/" element={<Homepage />} />
-              <Route path="/exchanges" element={<Exchanges />} />
+              {/* <Route path="/exchanges" element={<Exchanges />} /> */}
               <Route
                 exact
                 path="/cryptocurrencies"
@@ -45,7 +45,7 @@ const App = () => {
           </Typography.Title>
           <Space>
             <Link to="/">Home</Link>
-            <Link to="/exchanges">Exchanges</Link>
+            {/* <Link to="/exchanges">Exchanges</Link> */}
             <Link to="/news">News</Link>
           </Space>
         </div>
